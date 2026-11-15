@@ -1,0 +1,3 @@
+<resources>
+<string name="accessibility_description">Shows a visual circle around the center of controls activated by taps or clicks. Events depend on what the app exposes to Android Accessibility.</string>
+</resources>

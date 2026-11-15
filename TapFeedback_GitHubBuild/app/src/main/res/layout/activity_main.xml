@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical" android:padding="24dp" android:gravity="center_horizontal"
+ android:layout_width="match_parent" android:layout_height="match_parent">
+ <TextView android:text="Tap Feedback" android:textSize="24sp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+ <TextView android:id="@+id/sizeLabel" android:text="Circle size: 80 px" android:layout_marginTop="32dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+ <SeekBar android:id="@+id/sizeSeek" android:max="220" android:progress="60" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+ <Button android:id="@+id/startButton" android:text="Enable visual feedback" android:layout_marginTop="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+ <TextView android:text="After enabling the overlay, turn on Tap Feedback in Android Accessibility settings. The circle is drawn using the center of the clicked control when MSI App Player exposes a click event." android:layout_marginTop="28dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
